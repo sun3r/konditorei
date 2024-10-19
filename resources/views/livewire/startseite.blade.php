@@ -32,6 +32,9 @@
     button:hover {
       background-color: #A0465C;
     }
+    #menu-btn, #close-menu {
+    background-color: transparent; /* Hintergrund transparent */
+}
   </style>
 </head>
 
@@ -49,10 +52,11 @@
   
   <!-- Hamburger-Icon -->
   <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16" />
     </svg>
-  </button>
+</button>
+
 </header>
 
 <!-- Mobile Menu -->
@@ -103,7 +107,7 @@
           <p class="mt-4 text-gray-600">Herzhafte Quiche – perfekt für den herzhaften Appetit.</p>
         </div>
         <div class="bg-white p-4 shadow-lg">
-          <img src="/img/icecream.jpg" alt="Eiscreme" class="mx-auto">
+          <img src="/img/eiscreme.jpg" alt="Eiscreme" class="mx-auto">
           <p class="mt-4 text-gray-600">Saisonale Eiscreme – erfrischender Genuss im Sommer.</p>
         </div>
       </div>
@@ -131,12 +135,14 @@
         <button type="submit" class="w-full bg-pink-600 py-2 text-white rounded-md hover:bg-pink-500">Absenden</button>
       </form>
       <div class="mt-8 text-center">
-        <p class="text-white">Öffnungszeiten: Dienstag bis Freitag: 7:30 – 17:30 Uhr, Samstag: 7:30 – 17:00 Uhr, Sonntag und Montag: Geschlossen</p>
-        
+        <p>Öffnungszeiten: Dienstag bis Freitag: 7:30 – 17:30 Uhr, Samstag: 7:30 – 17:00 Uhr, Sonntag und Montag: Geschlossen</p>
+        <div class="mt-4">
+          <iframe src="https://maps.google.com" class="w-full h-64"></iframe>
+        </div>
       </div>
       <div class="text-center mt-12 text-gray-500">
-        <p class="text-white">&copy; 2024 Konditorei Fritzenkötter</p>
-        <p class="text-white"><a href="/impressum" class="hover:text-pink-500">Impressum</a> | <a href="/datenschutz" class="hover:text-pink-500">Datenschutz</a></p>
+        <p>&copy; 2024 Konditorei Fritzenkötter</p>
+        <p><a href="/impressum" class="hover:text-pink-500">Impressum</a> | <a href="/datenschutz" class="hover:text-pink-500">Datenschutz</a></p>
       </div>
     </div>
   </footer>
@@ -164,5 +170,6 @@
 </body>
 
 </html>
+
 
 </div>

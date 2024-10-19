@@ -109,7 +109,7 @@
           <p class="mt-4 text-gray-600">Herzhafte Quiche – perfekt für den herzhaften Appetit.</p>
         </div>
         <div class="bg-white p-4 shadow-lg">
-          <img src="/img/eiscreme.jpg" alt="Eiscreme" class="mx-auto">
+          <img src="/img/icecream.jpg" alt="Eiscreme" class="mx-auto">
           <p class="mt-4 text-gray-600">Saisonale Eiscreme – erfrischender Genuss im Sommer.</p>
         </div>
       </div>

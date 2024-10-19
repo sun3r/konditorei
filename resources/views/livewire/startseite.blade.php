@@ -78,10 +78,12 @@
 </div>
 
   <!-- Hero Section (100vh) -->
-  <section class="relative bg-cover bg-center h-screen flex flex-col justify-center items-center" style="background-image: url('/img/hero.jpeg')">
-    <h1 class="text-white text-5xl font-serif text-center">Tradition trifft auf Genuss seit 1877</h1>
-    <button class="mt-8 bg-pink-600 text-white py-2 px-6 rounded-md hover:bg-pink-500">Unsere Spezialitäten entdecken</button>
-  </section>
+<section class="relative bg-cover bg-center h-screen flex flex-col justify-center items-center" style="background-image: url('/img/hero.jpeg'); filter: brightness(80%);">
+  <div class="bg-black bg-opacity-50 p-6 rounded-md">
+    <h1 class="text-white text-5xl font-serif text-center text-shadow-lg">Tradition trifft auf Genuss seit 1877</h1>
+  </div>
+  <button class="mt-8 bg-pink-600 text-white py-2 px-6 rounded-md hover:bg-pink-500">Unsere Spezialitäten entdecken</button>
+</section>
 
   <!-- Über uns (mit Fade-In Effekt) -->
   <section id="about" class="py-16 bg-gray-100" data-aos="fade-up">

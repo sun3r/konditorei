@@ -137,14 +137,14 @@
         <button type="submit" class="w-full bg-pink-600 py-2 text-white rounded-md hover:bg-pink-500">Absenden</button>
       </form>
       <div class="mt-8 text-center">
-        <p>Öffnungszeiten: Dienstag bis Freitag: 7:30 – 17:30 Uhr, Samstag: 7:30 – 17:00 Uhr, Sonntag und Montag: Geschlossen</p>
+        <p class="text-white">Öffnungszeiten: Dienstag bis Freitag: 7:30 – 17:30 Uhr, Samstag: 7:30 – 17:00 Uhr, Sonntag und Montag: Geschlossen</p>
         <div class="mt-4">
           <iframe src="https://maps.google.com" class="w-full h-64"></iframe>
         </div>
       </div>
       <div class="text-center mt-12 text-gray-500">
-        <p>&copy; 2024 Konditorei Fritzenkötter</p>
-        <p><a href="/impressum" class="hover:text-pink-500">Impressum</a> | <a href="/datenschutz" class="hover:text-pink-500">Datenschutz</a></p>
+        <p class="text-white">&copy; 2024 Konditorei Fritzenkötter</p>
+        <p class="text-white"><a href="/impressum" class="hover:text-pink-500">Impressum</a> | <a href="/datenschutz" class="hover:text-pink-500">Datenschutz</a></p>
       </div>
     </div>
   </footer>
